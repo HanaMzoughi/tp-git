@@ -3,5 +3,6 @@ def ajouter_etudiant(nom):
 
 def ajouter_note(nom,note):
     print(f"{nom} a obtenu une note de {note}.")
+    return nom,note
 
     
